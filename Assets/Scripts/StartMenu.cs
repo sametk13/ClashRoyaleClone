@@ -66,6 +66,5 @@ public class StartMenu : MonoBehaviour
         await _runnerInstance.StartGame(startGameArgs);
 
         _runnerInstance.SetActiveScene(sceneName);
-
     }
 }
